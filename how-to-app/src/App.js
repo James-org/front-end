@@ -16,10 +16,9 @@ function App() {
   return (
     <div className="App">
     <Switch>
-   
-    <Route exact path='/' component={Signup}/>
+    
     <Route path='/login' component={Login}/>
-  
+    <Route path='/signup' component={Signup}/>
 
     {/* Private Routes */}
     {/* route to the view/save howTo page */}

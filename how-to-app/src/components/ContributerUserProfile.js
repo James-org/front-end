@@ -4,11 +4,11 @@ import {fetchHowTo, postHowTo, getUserName} from './store/actions/actionIndex';
 import { axiosWithAuth } from '../utils/axiosWithAuth';
 import {Link} from 'react-router-dom';
 
-// const initialState = {
-//     title: '',
-//     description: '',
+const initialState = {
+    title: '',
+    description: '',
     
-// }
+}
 
 
 const ContributerUserProfile = props => {
